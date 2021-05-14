@@ -1,0 +1,5 @@
+2021/05/14-19:54:45.639 17ec Recovering log #6
+2021/05/14-19:54:45.639 17ec Level-0 table #8: started
+2021/05/14-19:54:45.686 17ec Level-0 table #8: 287 bytes OK
+2021/05/14-19:54:45.842 17ec Delete type=0 #6
+2021/05/14-19:54:45.843 17ec Delete type=3 #4

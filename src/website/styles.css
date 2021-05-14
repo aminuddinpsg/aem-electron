@@ -1,0 +1,21 @@
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  .button-left{
+      float: left;
+  }
+  
+  button {
+      width: 90px;
+  }
+  
+  .button-text-font {
+      font-size:smaller;
+      font-weight: bold;
+  }

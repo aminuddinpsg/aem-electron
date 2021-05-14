@@ -1,0 +1,22 @@
+{
+  "name": "aem-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rimraf user dist && electron ./src/electron/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.7"
+  },
+  "dependencies": {
+    "pouchdb": "^7.2.2",
+    "pouchdb-find": "^7.2.2",
+    "pouchdb-quick-search": "^1.3.0",
+    "rimraf": "^3.0.2"
+  }
+}
