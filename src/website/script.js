@@ -4,7 +4,7 @@ function signIn() {
   const password = document.getElementById("exampleInputPassword1").value;
 
   // validating
-  fetch('http://localhost:3000/user', {
+  fetch('http://localhost:3000/api/login', {
     method: 'POST',
     body: JSON.stringify({
       username: email,
@@ -14,10 +14,10 @@ function signIn() {
       'Content-type': 'application/json; charset=UTF-8'
     }
   }).then((response) => {
-    if (response.ok) {
+    if (response.status == '200') {
       location.replace("../website/dummy.html");
       return response.json();
-    }else {
+    }else if (response.status == '204'){
       // use pouchDB data to validate
       pouchDbValidation(email,password);
       return Promise.reject(response);
