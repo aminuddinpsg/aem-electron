@@ -17,5 +17,5 @@ $ npm install
 
 Using the following command to run the app in local
 ```bash
-$ npm run
+$ npm start
 ```
